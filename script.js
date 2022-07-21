@@ -21,7 +21,7 @@ box.id = "info";
 var append = (e) => box.appendChild(e);
 append(coloredtext("Добро пожаловать на микросайт JavaJumper'a","#CCC"));
 append(html("hr"));
-var contactText = coloredtext("Контактная информация:","#DF0");
+var contactText = coloredtext("Контактная информация:","#EF7");
 contactText.style.marginBottom = "1vw";
 append(contactText);
 
