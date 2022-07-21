@@ -1,0 +1,12 @@
+.box{
+    width: fit-content;
+    font-family: "Consolas";
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2vw;
+    padding: .4vw;
+    background-color: #252526;
+}
+body{
+    background-color: #1E1E1E;
+}
