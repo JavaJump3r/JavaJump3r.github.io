@@ -13,7 +13,7 @@ function contactEntry(site,name,image)
     logo.className = "logo";
     logo.src = "images/"+image;
     entry.appendChild(logo);
-    entry.appendChild(coloredtext(" "+site+": ","#DCDCAA"));
+    entry.appendChild(coloredtext(site+": ","#DCDCAA"));
     entry.appendChild(coloredtext(name,"#9CDCFE"));
     entry.appendChild(html("br"));
     return entry;
