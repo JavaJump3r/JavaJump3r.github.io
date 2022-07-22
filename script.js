@@ -6,10 +6,14 @@ function coloredtext(text,color)
     textElement.innerText = text;
     return textElement;
 }
-function contactEntry(site,name)
+function contactEntry(site,name,image)
 {
     var entry = html("div");
-    entry.appendChild(coloredtext(site+": ","#DCDCAA"));
+    var logo = html("img");
+    logo.className = "logo";
+    logo.src = "images/"+image;
+    entry.appendChild(logo);
+    entry.appendChild(coloredtext(" "+site+": ","#DCDCAA"));
     entry.appendChild(coloredtext(name,"#9CDCFE"));
     entry.appendChild(html("br"));
     return entry;
@@ -25,7 +29,7 @@ var contactText = coloredtext("Контактная информация:","#EF7
 contactText.style.marginBottom = "1vw";
 append(contactText);
 
-append(contactEntry("Telegram","@JavaJumper"));
-append(contactEntry("Discord","JavaJumper#8438"));
-append(contactEntry("E-mail","jumpergooog@gmail.com"));
+append(contactEntry("Telegram","@JavaJumper","telegram.png"));
+append(contactEntry("Discord","JavaJumper#8438","discord.png"));
+append(contactEntry("E-mail","jumpergooog@gmail.com","gmail.png"));
 body.appendChild(box);  

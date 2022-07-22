@@ -6,6 +6,12 @@
     font-size: 2vw;
     padding: .4vw;
     background-color: #252526;
+    color: #eeff77
+}
+.logo{
+    height: 2vw;
+    width: 2vw;
+    vertical-align: middle;
 }
 body{
     background-color: #1E1E1E;
