@@ -29,7 +29,7 @@ var contactText = coloredtext("Контактная информация:","#EF7
 contactText.style.marginBottom = "1vw";
 append(contactText);
 
-append(contactEntry("Telegram","@JavaJumper","telegram.png"));
+append(contactEntry("Telegram","@JavaJump3r","telegram.png"));
 append(contactEntry("Discord","JavaJumper#8438","discord.png"));
 append(contactEntry("E-mail","jumpergooog@gmail.com","gmail.png"));
 body.appendChild(box);  
